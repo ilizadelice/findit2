@@ -22,26 +22,6 @@ function showEvents(choice) {
                 image: "https://via.placeholder.com/300x180?text=Ubumuntu+Arts+Festival",
                 age: "All Ages",
                 link: "https://ubumuntuarts.org/"
-            },
-            {
-                name: "Hobe Rwanda Festival",
-                date: "September 2026",
-                place: "Kigali",
-                price: "10,000–20,000 RWF",
-                description: "Celebration of contemporary Rwandan music, arts, and theatre.",
-                image: "https://via.placeholder.com/300x180?text=Hobe+Rwanda+Festival",
-                age: "All Ages",
-                link: "https://example.com/hobe-rwanda"
-            },
-            {
-                name: "Kigali Photo Festival",
-                date: "June 2026",
-                place: "Various Galleries",
-                price: "Free",
-                description: "Photography exhibitions showcasing Rwandan and African photographers.",
-                image: "https://via.placeholder.com/300x180?text=Kigali+Photo+Festival",
-                age: "All Ages",
-                link: "https://example.com/kigali-photo"
             }
         ],
         "Culture and Traditions": [
@@ -54,16 +34,6 @@ function showEvents(choice) {
                 image: "https://via.placeholder.com/300x180?text=Umoja+Fest",
                 age: "All Ages",
                 link: "https://example.com/umoja-fest"
-            },
-            {
-                name: "Umuganura (Harvest Day)",
-                date: "Aug 7, 2026",
-                place: "Nationwide",
-                price: "Free",
-                description: "Traditional Rwandan harvest celebration.",
-                image: "https://via.placeholder.com/300x180?text=Umuganura",
-                age: "All Ages",
-                link: "https://example.com/umuganura"
             }
         ],
         "Music and Nightlife": [
@@ -76,88 +46,9 @@ function showEvents(choice) {
                 image: "https://via.placeholder.com/300x180?text=Kigali+Up+Music",
                 age: "18+",
                 link: "https://example.com/kigali-up-music"
-            },
-            {
-                name: "Kivu Fest",
-                date: "July 10, 2026",
-                place: "Lake Kivu, Rubavu",
-                price: "10,000–30,000 RWF",
-                description: "Outdoor music festival by Lake Kivu with live performances.",
-                image: "https://via.placeholder.com/300x180?text=Kivu+Fest",
-                age: "18+",
-                link: "https://example.com/kivu-fest"
-            }
-        ],
-        "Sports and Athletics": [
-            {
-                name: "Tour de Rwanda",
-                date: "Feb 2026",
-                place: "Nationwide, ends in Kigali",
-                price: "Free (Spectating)",
-                description: "International cycling competition across Rwanda.",
-                image: "https://via.placeholder.com/300x180?text=Tour+de+Rwanda",
-                age: "All Ages",
-                link: "https://www.tourderwanda.rw/"
-            },
-            {
-                name: "Kigali Peace Marathon",
-                date: "May 2026",
-                place: "Kigali",
-                price: "10,000 RWF (Registration)",
-                description: "Annual marathon promoting peace and fitness.",
-                image: "https://via.placeholder.com/300x180?text=Peace+Marathon",
-                age: "15+",
-                link: "https://example.com/peace-marathon"
-            }
-        ],
-        "Technology and Business": [
-            {
-                name: "MWC (Mobile World Congress)",
-                date: "Oct 2026",
-                place: "KCC/BK Arena",
-                price: "200–1,200 $",
-                description: "Tech exhibition showcasing latest mobile technologies.",
-                image: "https://via.placeholder.com/300x180?text=MWC",
-                age: "All Ages",
-                link: "https://www.mwcbarcelona.com/"
-            }
-        ],
-        "Food and Lifestyle": [
-            {
-                name: "Kigali Coffee Festival",
-                date: "June 2026",
-                place: "Kigali",
-                price: "5,000–10,000 RWF",
-                description: "Showcasing Rwanda's coffee culture with tastings and workshops.",
-                image: "https://via.placeholder.com/300x180?text=Coffee+Festival",
-                age: "All Ages",
-                link: "https://example.com/coffee-festival"
-            }
-        ],
-        "Conservation and Nature": [
-            {
-                name: "Kwita Izina",
-                date: "Sep 5, 2026",
-                place: "Kinigi, Musanze",
-                price: "Free (Public)",
-                description: "Annual gorilla naming ceremony in Rwanda.",
-                image: "https://via.placeholder.com/300x180?text=Kwita+Izina",
-                age: "All Ages",
-                link: "https://www.kwitaizina.rw/"
-            }
-        ],
-        "Religious Events": [
-            {
-                name: "Feast of Our Lady of Kibeho",
-                date: "Nov 28, 2026",
-                place: "Kibeho, Nyaruguru",
-                price: "Free (Pilgrimage)",
-                description: "Annual pilgrimage to honor Our Lady of Kibeho.",
-                image: "https://via.placeholder.com/300x180?text=Kibeho+Feast",
-                age: "All Ages",
-                link: "https://example.com/kibeho-feast"
             }
         ]
+        // You can continue adding other categories the same way
     };
 
     if (events[choice] && events[choice].length > 0) {
