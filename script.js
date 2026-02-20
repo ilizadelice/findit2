@@ -6,10 +6,10 @@ function showEvents(choice) {
         output += `<p><span class="event-title">Kigali Fashion Week</span><br>
         <span class="event-details">Date: May 30, 2026<br>
         Place: Zaria Court, Kigali<br>
-        Cost: 20,000–50,000 RWF<br>
+        Cost: 20,000â€“50,000 RWF<br>
         <a href="https://kigalifashionweek.com" target="_blank">More Info</a></span></p>`;
         output += `<p><span class="event-title">Ubumuntu Arts Festival</span><br>
-        <span class="event-details">Date: July 13–19, 2026<br>
+        <span class="event-details">Date: July 13â€“19, 2026<br>
         Place: Kigali Genocide Memorial Site<br>
         Cost: Free (Donations)<br>
         <a href="https://ubumuntuartsfestival.org" target="_blank">More Info</a></span></p>`;
@@ -26,7 +26,7 @@ function showEvents(choice) {
         output += `<p><span class="event-title">Hobe Rwanda Festival</span><br>
         <span class="event-details">Date: September 2026<br>
         Place: Kigali<br>
-        Cost: 10,000–20,000 RWF<br>
+        Cost: 10,000â€“20,000 RWF<br>
         <a href="https://hoberwanda.com" target="_blank">More Info</a></span></p>`;
     }
     else if (choice === "Culture and Traditions") {
@@ -34,7 +34,7 @@ function showEvents(choice) {
         output += `<p><span class="event-title">Umoja Fest</span><br>
         <span class="event-details">Date: Dec 26, 2026<br>
         Place: Nature Kigali<br>
-        Cost: Free – 5,000 RWF<br>
+        Cost: Free â€“ 5,000 RWF<br>
         <a href="https://umojafest.com" target="_blank">More Info</a></span></p>`;
         output += `<p><span class="event-title">Umuganura (Harvest Day)</span><br>
         <span class="event-details">Date: Aug 7, 2026<br>
@@ -52,7 +52,7 @@ function showEvents(choice) {
         Cost: Free (Respectful Entry)<br>
         <a href="https://umuganda.com" target="_blank">More Info</a></span></p>`;
         output += `<p><span class="event-title">Kwibuka (Genocide Remembrance)</span><br>
-        <span class="event-details">Date: April 7, 2026 – July 4, 2026<br>
+        <span class="event-details">Date: April 7, 2026 â€“ July 4, 2026<br>
         Place: Memorial Sites<br>
         Cost: Free (Respectful Entry)<br>
         <a href="https://kwibuka.com" target="_blank">More Info</a></span></p>`;
@@ -62,27 +62,27 @@ function showEvents(choice) {
         output += `<p><span class="event-title">Kigali Up Music Festival</span><br>
         <span class="event-details">Date: July 10, 2026<br>
         Place: Kigali<br>
-        Cost: 10,000–25,000 RWF<br>
+        Cost: 10,000â€“25,000 RWF<br>
         <a href="https://kigaliupfestival.com" target="_blank">More Info</a></span></p>`;
         output += `<p><span class="event-title">Kivu Fest</span><br>
         <span class="event-details">Date: July 10, 2026<br>
         Place: Lake Kivu, Rubavu<br>
-        Cost: 10,000–30,000 RWF<br>
+        Cost: 10,000â€“30,000 RWF<br>
         <a href="https://kivufest.com" target="_blank">More Info</a></span></p>`;
         output += `<p><span class="event-title">Misozi Music Festival</span><br>
         <span class="event-details">Date: Dec 2026<br>
         Place: Kigali<br>
-        Cost: 5,000–15,000 RWF<br>
+        Cost: 5,000â€“15,000 RWF<br>
         <a href="https://misozifest.com" target="_blank">More Info</a></span></p>`;
         output += `<p><span class="event-title">Jazz Junction</span><br>
         <span class="event-details">Date: Quarterly<br>
         Place: Kigali Hotels<br>
-        Cost: 20,000–40,000 RWF<br>
+        Cost: 20,000â€“40,000 RWF<br>
         <a href="https://jazzjunction.com" target="_blank">More Info</a></span></p>`;
         output += `<p><span class="event-title">Chop Life Kigali</span><br>
         <span class="event-details">Date: Twice a month<br>
         Place: Various venues<br>
-        Cost: 10,000–20,000 RWF<br>
+        Cost: 10,000â€“20,000 RWF<br>
         <a href="https://choplifekigali.com" target="_blank">More Info</a></span></p>`;
     }
     else if (choice === "Sports and Athletics") {
@@ -100,12 +100,12 @@ function showEvents(choice) {
         output += `<p><span class="event-title">Basketball Africa League</span><br>
         <span class="event-details">Date: May 2026<br>
         Place: BK Arena<br>
-        Cost: 5,000–50,000 RWF<br>
+        Cost: 5,000â€“50,000 RWF<br>
         <a href="https://basketballafricaleague.com" target="_blank">More Info</a></span></p>`;
         output += `<p><span class="event-title">Ironman 70.3 Rwanda</span><br>
         <span class="event-details">Date: Aug 2026<br>
         Place: Rubavu<br>
-        Cost: 250–350 $<br>
+        Cost: 250â€“350 $<br>
         <a href="https://ironman.com/rwanda" target="_blank">More Info</a></span></p>`;
         output += `<p><span class="event-title">Rwanda Gorilla Rally</span><br>
         <span class="event-details">Date: Sep 2026<br>
@@ -119,27 +119,27 @@ function showEvents(choice) {
         output += `<p><span class="event-title">MWC (Mobile World Congress)</span><br>
         <span class="event-details">Date: Oct 2026<br>
         Place: KCC/BK Arena<br>
-        Cost: 200–1,200 $<br>
+        Cost: 200â€“1,200 $<br>
         <a href="https://mwc.com" target="_blank">More Info</a></span></p>`;
         output += `<p><span class="event-title">Africa Tech Summit</span><br>
         <span class="event-details">Date: Feb 2026<br>
         Place: Kigali<br>
-        Cost: 400–600 $<br>
+        Cost: 400â€“600 $<br>
         <a href="https://africatechsummit.com" target="_blank">More Info</a></span></p>`;
         output += `<p><span class="event-title">Africa CEO Forum</span><br>
-        <span class="event-details">Date: May 14–15, 2026<br>
+        <span class="event-details">Date: May 14â€“15, 2026<br>
         Place: Kigali Convention Centre<br>
-        Cost: 1,500–2,500 €<br>
+        Cost: 1,500â€“2,500 â‚¬<br>
         <a href="https://africaceoforum.com" target="_blank">More Info</a></span></p>`;
         output += `<p><span class="event-title">Inclusive Fintech Forum</span><br>
         <span class="event-details">Date: June 2026<br>
         Place: KCC<br>
-        Cost: 300–500 $<br>
+        Cost: 300â€“500 $<br>
         <a href="https://inclusivefintechforum.com" target="_blank">More Info</a></span></p>`;
         output += `<p><span class="event-title">Aviation Africa Summit</span><br>
         <span class="event-details">Date: Sep 2026<br>
         Place: KCC<br>
-        Cost: 500–800 $<br>
+        Cost: 500â€“800 $<br>
         <a href="https://aviationafrica.com" target="_blank">More Info</a></span></p>`;
     }
 else if (choice === "Food and Lifestyle") {
@@ -147,27 +147,27 @@ else if (choice === "Food and Lifestyle") {
     output += `<p><span class="event-title">Kigali Coffee Festival</span><br>
     <span class="event-details">Date: June 2026<br>
     Place: Kigali<br>
-    Cost: 5,000–10,000 RWF<br>
+    Cost: 5,000â€“10,000 RWF<br>
     <a href="https://kigalicoffeefestival.com" target="_blank">More Info</a></span></p>`;
     output += `<p><span class="event-title">Restaurant Week Kigali</span><br>
     <span class="event-details">Date: Aug 2026<br>
     Place: Across Kigali<br>
-    Cost: 15,000–35,000 RWF<br>
+    Cost: 15,000â€“35,000 RWF<br>
     <a href="https://restaurantweekkigali.com" target="_blank">More Info</a></span></p>`;
     output += `<p><span class="event-title">Diner en Blanc</span><br>
     <span class="event-details">Date: Aug 2026<br>
     Place: Secret Location<br>
-    Cost: 40–60 $<br>
+    Cost: 40â€“60 $<br>
     <a href="https://dinerenblancrwanda.com" target="_blank">More Info</a></span></p>`;
     output += `<p><span class="event-title">Oktoberfest Kigali</span><br>
     <span class="event-details">Date: Oct 2026<br>
     Place: Various Venues<br>
-    Cost: 10,000–25,000 RWF<br>
+    Cost: 10,000â€“25,000 RWF<br>
     <a href="https://oktoberfestkigali.com" target="_blank">More Info</a></span></p>`;
     output += `<p><span class="event-title">Twilight Picnic & Cine</span><br>
     <span class="event-details">Date: Dec 2026<br>
     Place: Kigali<br>
-    Cost: 10,000–15,000 RWF<br>
+    Cost: 10,000â€“15,000 RWF<br>
     <a href="https://twilightpicniccine.com" target="_blank">More Info</a></span></p>`;
 }
 
@@ -191,12 +191,12 @@ else if (choice === "Conservation and Nature") {
     output += `<p><span class="event-title">International Biodiversity Conference</span><br>
     <span class="event-details">Date: July 30, 2026<br>
     Place: KCC, Kigali<br>
-    Cost: 200–400 $<br>
+    Cost: 200â€“400 $<br>
     <a href="https://biodiversityconf.com" target="_blank">More Info</a></span></p>`;
     output += `<p><span class="event-title">Smart City Expo Africa</span><br>
     <span class="event-details">Date: Sep 2026<br>
     Place: Kigali<br>
-    Cost: 200–450 $<br>
+    Cost: 200â€“450 $<br>
     <a href="https://smartcityexpoafrica.com" target="_blank">More Info</a></span></p>`;
 }
 
@@ -214,7 +214,7 @@ else if (choice === "Religious Events") {
     <a href="https://assumptionpilgrimage.com" target="_blank">More Info</a></span></p>`;
     output += `<p><span class="event-title">Eid al-Fitr</span><br>
     <span class="event-details">Date: March 20, 2026<br>
-    Place: Kigali Pelé Stadium<br>
+    Place: Kigali PelÃ© Stadium<br>
     Cost: Free<br>
     <a href="https://eidfitrkigali.com" target="_blank">More Info</a></span></p>`;
     output += `<p><span class="event-title">Eid al-Adha</span><br>
@@ -223,7 +223,7 @@ else if (choice === "Religious Events") {
     Cost: Free<br>
     <a href="https://eidadharwanda.com" target="_blank">More Info</a></span></p>`;
     output += `<p><span class="event-title">Kibeho Spiritual Retreat</span><br>
-    <span class="event-details">Date: Aug 31 – Sep 11, 2026<br>
+    <span class="event-details">Date: Aug 31 â€“ Sep 11, 2026<br>
     Place: Kibeho<br>
     Cost: 100 $+<br>
     <a href="https://kibeho-retreat.com" target="_blank">More Info</a></span></p>`;
@@ -231,5 +231,6 @@ else if (choice === "Religious Events") {
 
 // Finalize output
 document.getElementById("output").innerHTML = output;
+}      
 
  
