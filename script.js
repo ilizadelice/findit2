@@ -7,22 +7,22 @@ function showEvents(choice) {
         <span class="event-details">Date: May 30, 2026<br>
         Place: Zaria Court, Kigali<br>
         Cost: 20,000–50,000 RWF<br>
-        <a href="https://kigalifashionweek.com" target="_blank">More Info</a></span></p>`;
+        <a href="https:// https://europaregina.eu/fashion-weeks/fashion-weeks-africa/kigali-fashion-week/" target="_blank">More Info</a></span></p>`;
         output += `<p><span class="event-title">Ubumuntu Arts Festival</span><br>
         <span class="event-details">Date: July 13–19, 2026<br>
         Place: Kigali Genocide Memorial Site<br>
         Cost: Free (Donations)<br>
-        <a href="https://ubumuntuartsfestival.org" target="_blank">More Info</a></span></p>`;
+        <a href="https://http://ubumuntuartsfestival.com/." target="_blank">More Info</a></span></p>`;
         output += `<p><span class="event-title">Rwanda Film Festival</span><br>
         <span class="event-details">Date: July 2026<br>
         Place: Kigali / Rubavu<br>
         Cost: Free (Public Screening)<br>
-        <a href="https://rwandafilmfestival.com" target="_blank">More Info</a></span></p>`;
+        <a href="https://https://filmfreeway.com/RwandaFilmFestival2022. " target="_blank">More Info</a></span></p>`;
         output += `<p><span class="event-title">Kigali Photo Festival</span><br>
         <span class="event-details">Date: June 2026<br>
         Place: Various Galleries<br>
         Cost: Free<br>
-        <a href="https://kigaliphoto.com" target="_blank">More Info</a></span></p>`;
+        <a href="https://https://www.kigaliphotofest.com/" target="_blank">More Info</a></span></p>`;
         output += `<p><span class="event-title">Hobe Rwanda Festival</span><br>
         <span class="event-details">Date: September 2026<br>
         Place: Kigali<br>
@@ -35,27 +35,27 @@ function showEvents(choice) {
         <span class="event-details">Date: Dec 26, 2026<br>
         Place: Nature Kigali<br>
         Cost: Free – 5,000 RWF<br>
-        <a href="https://umojafest.com" target="_blank">More Info</a></span></p>`;
+        <a href="https://umojafest.com" target=": info@umojaholidaysfestival.com">More Info</a></span></p>`;
         output += `<p><span class="event-title">Umuganura (Harvest Day)</span><br>
         <span class="event-details">Date: Aug 7, 2026<br>
         Place: Nationwide<br>
         Cost: Free (Public Holiday)<br>
-        <a href="https://umuganura.com" target="_blank">More Info</a></span></p>`;
+        <a href="https://umuganura.com" target="https://www.gov.rw › Gov › Blog Detail">More Info</a></span></p>`;
         output += `<p><span class="event-title">National Liberation Day</span><br>
         <span class="event-details">Date: July 4, 2026<br>
         Place: Amahoro Stadium<br>
         Cost: Free<br>
-        <a href="https://liberationday.com" target="_blank">More Info</a></span></p>`;
+        <a href="https://" target="https://www.google.com/search?q=National+Liberation+Day+website+for+more+information&rlz=1C1GCEU_en-GBRW1180RW1180&biw=1360&bih=641&sca_esv=2827ae63164125c3&sxsrf=ANbL-n7f5A8gdeg-9mYe5qRSLBvx3iyOlw%3A1771598852918&ei=BHSYaazlN8zyi-gPrbOW2Qc&ved=0ahUKEwis97-CqOiSAxVM-QIHHa2ZJXsQ4dUDCBM&uact=5&oq=National+Liberation+Day+website+for+more+information&gs_lp=Egxnd3Mtd2l6LXNlcnAiNE5hdGlvbmFsIExpYmVyYXRpb24gRGF5IHdlYnNpdGUgZm9yIG1vcmUgaW5mb3JtYXRpb24yCBAAGIAEGKIEMggQABiABBiiBDIFEAAY7wUyBRAAGO8FSLglUMoFWJIgcAF4AJABAZgB0wKgAecRqgEFMi00LjS4AQPIAQD4AQH4AQKYAgSgArQGwgIKEAAYsAMY1gQYR8ICBhAAGAcYHsICBBAAGB6YAwCIBgGQBgiSBwUxLjAuM6AHkiyyBwMyLTO4B64GwgcFMC4yLjLIBw-ACAA&sclient=gws-wiz-serp">More Info</a></span></p>`;
         output += `<p><span class="event-title">Umuganda (Community Service)</span><br>
         <span class="event-details">Date: Last Saturday of every month<br>
         Place: Local Communities<br>
         Cost: Free (Respectful Entry)<br>
-        <a href="https://umuganda.com" target="_blank">More Info</a></span></p>`;
+        <a href="https://umuganda.com" target="https://www.google.com/search?q=Umuganda+%28Community+Service%29+website+for+more+information&rlz=1C1GCEU_en-GBRW1180RW1180&biw=1360&bih=641&sca_esv=2827ae63164125c3&sxsrf=ANbL-n5D3w72aLv84yNyUpkG7opvd0z8VA%3A1771598906452&ei=OnSYacumG4qgi-gPt_XfuQY&ved=0ahUKEwjLq4OcqOiSAxUK0AIHHbf6N2cQ4dUDCBM&uact=5&oq=Umuganda+%28Community+Service%29+website+for+more+information&gs_lp=Egxnd3Mtd2l6LXNlcnAiOVVtdWdhbmRhIChDb21tdW5pdHkgU2VydmljZSkgd2Vic2l0ZSBmb3IgbW9yZSBpbmZvcm1hdGlvbjIFEAAY7wUyCBAAGIAEGKIEMggQABiABBiiBDIFEAAY7wUyBRAAGO8FSPgbUABYyhlwAHgBkAEAmAGpAqABiwaqAQMyLTO4AQPIAQD4AQH4AQKYAgOgAqEGwgIGEAAYBxgewgIEEAAYHsICCBAhGKABGMMEmAMAkgcFMi0yLjGgB7EMsgcFMi0yLjG4B6EGwgcHMC4xLjEuMcgHDYAIAA&sclient=gws-wiz-serp">More Info</a></span></p>`;
         output += `<p><span class="event-title">Kwibuka (Genocide Remembrance)</span><br>
         <span class="event-details">Date: April 7, 2026 – July 4, 2026<br>
         Place: Memorial Sites<br>
         Cost: Free (Respectful Entry)<br>
-        <a href="https://kwibuka.com" target="_blank">More Info</a></span></p>`;
+        <a href="https://kwibuka.com" target="https://www.ibuka.rw">More Info</a></span></p>`;
     }
     else if (choice === "Music and Nightlife") {
         output += "<h3>Concerts and Festivals in Rwanda</h3>";
@@ -63,27 +63,27 @@ function showEvents(choice) {
         <span class="event-details">Date: July 10, 2026<br>
         Place: Kigali<br>
         Cost: 10,000–25,000 RWF<br>
-        <a href="https://kigaliupfestival.com" target="_blank">More Info</a></span></p>`;
+        <a href="https://http://www.kigaliup.net/ http://www.kigaliup.net/" target="_blank">More Info</a></span></p>`;
         output += `<p><span class="event-title">Kivu Fest</span><br>
         <span class="event-details">Date: July 10, 2026<br>
         Place: Lake Kivu, Rubavu<br>
         Cost: 10,000–30,000 RWF<br>
-        <a href="https://kivufest.com" target="_blank">More Info</a></span></p>`;
+        <a href="https:// Kivu Fest Instagram" target="_blank">More Info</a></span></p>`;
         output += `<p><span class="event-title">Misozi Music Festival</span><br>
         <span class="event-details">Date: Dec 2026<br>
         Place: Kigali<br>
         Cost: 5,000–15,000 RWF<br>
-        <a href="https://misozifest.com" target="_blank">More Info</a></span></p>`;
+        <a href="https://https://www.google.com/search?q=Misozi+Music+Festival&rlz=1C1GCEU_en-GBRW1180RW1180&biw=1360&bih=641&sca_esv=2827ae63164125c3&sxsrf=ANbL-n7WvGqLYXvz_gETZj8XQ3SbHxHo4A%3A1771599464690&ei=aHaYaYfqKfGti-gP6ZeXwA0&ved=0ahUKEwiHvpumquiSAxXx1gIHHenLBdgQ4dUDCBM&uact=5&oq=Misozi+Music+Festival&gs_lp=Egxnd3Mtd2l6LXNlcnAiFU1pc296aSBNdXNpYyBGZXN0aXZhbDIEECMYJzIFEAAY7wUyBRAAGO8FMggQABiABBiiBDIFEAAY7wVIgCZQiwZYqR1wAXgAkAEAmAHgAqABtCSqAQYyLTEyLjW4AQPIAQD4AQGYAgOgAvADwgIIEAAYsAMY7wXCAgsQABiABBiwAxiiBMICCxAAGLADGKIEGIkFwgIIEAAYogQYiQWYAwCIBgGQBgSSBwUxLjAuMqAHg1CyBwMyLTK4B-oDwgcDMi0zyAcRgAgA&sclient=gws-wiz-serp" target="_blank">More Info</a></span></p>`;
         output += `<p><span class="event-title">Jazz Junction</span><br>
         <span class="event-details">Date: Quarterly<br>
         Place: Kigali Hotels<br>
         Cost: 20,000–40,000 RWF<br>
-        <a href="https://jazzjunction.com" target="_blank">More Info</a></span></p>`;
+        <a href="https://https://www.google.com/search?q=kigali+%3EJazz+Junction+&rlz=1C1GCEU_en-GBRW1180RW1180&biw=1360&bih=641&sca_esv=2827ae63164125c3&sxsrf=ANbL-n6bMeuPPSDnSFTSk5tg1Y65X81U1A%3A1771599497937&ei=iXaYaZ74OOuei-gPuZG5-Ao&ved=0ahUKEwje4Ii2quiSAxVrzwIHHblIDq8Q4dUDCBM&uact=5&oq=kigali+%3EJazz+Junction+&gs_lp=Egxnd3Mtd2l6LXNlcnAiFmtpZ2FsaSA-SmF6eiBKdW5jdGlvbiAyBhAAGBYYHjILEAAYgAQYhgMYigUyCxAAGIAEGIYDGIoFMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyBRAAGO8FMgUQABjvBUjwaFDjBliJY3ABeAGQAQCYAZMCoAG6JaoBBDItMjG4AQPIAQD4AQH4AQKYAgygArUUwgIHECMYsAMYJ8ICChAAGLADGNYEGEfCAgsQABiABBiRAhiKBcICBhAAGAcYHsICBRAAGIAEwgIKECMYgAQYJxiKBcICBBAjGCfCAgoQIxjwBRgnGMkCwgIREC4YgAQYkQIYxwEYigUYrwHCAgsQLhiABBjHARivAcICEBAAGIAEGLEDGIMBGBQYhwLCAgsQABiABBixAxiDAcICBRAuGIAEmAMAiAYBkAYHkgcGMS4wLjExoAeVlwGyBwQyLTExuAevFMIHBTItOS4zyAdKgAgA&sclient=gws-wiz-serp" target="_blank">More Info</a></span></p>`;
         output += `<p><span class="event-title">Chop Life Kigali</span><br>
         <span class="event-details">Date: Twice a month<br>
         Place: Various venues<br>
         Cost: 10,000–20,000 RWF<br>
-        <a href="https://choplifekigali.com" target="_blank">More Info</a></span></p>`;
+        <a href="https://choplifekigali.com" target="https://www.choplifegaming.com">More Info</a></span></p>`;
     }
     else if (choice === "Sports and Athletics") {
         output += "<h3>Rwanda's Athletic Events</h3>";
