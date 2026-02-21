@@ -27,7 +27,7 @@ function showEvents(choice) {
         <span class="event-details">Date: September 2026<br>
         Place: Kigali<br>
         Cost: 10,000–20,000 RWF<br>
-        <a href="https://hoberwanda.com" target="_blank">More Info</a></span></p>`;
+        <a href="https://hoberwanda.com" target="_blank">More Info</a>
     }
     else if (choice === "Culture and Traditions") {
         output += "<h3>Rwanda's Core Identity and Cultural Events</h3>";
