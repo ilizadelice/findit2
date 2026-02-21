@@ -234,3 +234,4 @@ else if (choice === "Religious Events") {
 
 // Finalize output
 document.getElementById("output").innerHTML = output;
+}
