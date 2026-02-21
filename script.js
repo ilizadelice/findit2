@@ -27,7 +27,7 @@ function showEvents(choice) {
         <span class="event-details">Date: September 2026<br>
         Place: Kigali<br>
         Cost: 10,000–20,000 RWF<br>
-        <a href="https://hoberwanda.com" target="_blank">More Info</a>`;
+        <a href="https://www.visitrwandagorilla.com/hobe-rwanda-festival/" target="_blank">More Info</a>`;
     }
     else if (choice === "Culture and Traditions") {
         output += "<h3>Rwanda's Core Identity and Cultural Events</h3>";
@@ -35,7 +35,7 @@ function showEvents(choice) {
         <span class="event-details">Date: Dec 26, 2026<br>
         Place: Nature Kigali<br>
         Cost: Free – 5,000 RWF<br>
-        <a href="https://umojafest.com" target="_blank">More Info</a>`;
+        <a href="https://egotickets.com/events/umoja-fest-2025" target="_blank">More Info</a>`;
         output += `<p><span class="event-title">Umuganura (Harvest Day)</span><br>
         <span class="event-details">Date: Aug 7, 2026<br>
         Place: Nationwide<br>
@@ -45,17 +45,17 @@ function showEvents(choice) {
         <span class="event-details">Date: July 4, 2026<br>
         Place: Amahoro Stadium<br>
         Cost: Free<br>
-        <a href="https://liberationday.com" target="_blank">More Info</a>`;
+        <a href="https://en.wikipedia.org/wiki/Liberation_Day_(Rwanda)" target="_blank">More Info</a>`;
         output += `<p><span class="event-title">Umuganda (Community Service)</span><br>
         <span class="event-details">Date: Last Saturday of every month<br>
         Place: Local Communities<br>
         Cost: Free (Respectful Entry)<br>
-        <a href="https://umuganda.com" target="_blank">More Info</a></span></p>`;
+        <a href="https://www.allaboutrwanda.com/umuganda.html" target="_blank">More Info</a></span></p>`;
         output += `<p><span class="event-title">Kwibuka (Genocide Remembrance)</span><br>
         <span class="event-details">Date: April 7, 2026 – July 4, 2026<br>
         Place: Memorial Sites<br>
         Cost: Free (Respectful Entry)<br>
-        <a href="https://kwibuka.com" target="_blank">More Info</a>`;
+        <a href="https://genocidearchiverwanda.org.rw/category/Remembrance" target="_blank">More Info</a>`;
     }
     else if (choice === "Music and Nightlife") {
         output += "<h3>Concerts and Festivals in Rwanda</h3>";
@@ -63,7 +63,7 @@ function showEvents(choice) {
         <span class="event-details">Date: July 10, 2026<br>
         Place: Kigali<br>
         Cost: 10,000–25,000 RWF<br>
-        <a href="https://kigaliupfestival.com" target="_blank">More Info</a>`;
+        <a href="https://www.ishyoartscentre.org/kigali-up-fesival/" target="_blank">More Info</a>`;
         output += `<p><span class="event-title">Kivu Fest</span><br>
         <span class="event-details">Date: July 10, 2026<br>
         Place: Lake Kivu, Rubavu<br>
@@ -91,7 +91,7 @@ function showEvents(choice) {
         <span class="event-details">Date: Feb 2026<br>
         Place: Nationwide, ends in Kigali<br>
         Cost: Free (Spectating)<br>
-        <a href="https://tourderwanda.com" target="_blank">More Info</a>`;
+        <a href="https://www.tourdurwanda.rw/" target="_blank">More Info</a>`;
         output += `<p><span class="event-title">Kigali Peace Marathon</span><br>
         <span class="event-details">Date: May 2026<br>
         Place: Kigali<br>
@@ -120,7 +120,7 @@ function showEvents(choice) {
         <span class="event-details">Date: Oct 2026<br>
         Place: KCC/BK Arena<br>
         Cost: 200–1,200 $<br>
-        <a href="https://mwc.com" target="_blank">More Info</a>`;
+        <a href="https://www.mwckigali.com/" target="_blank">More Info</a>`;
         output += `<p><span class="event-title">Africa Tech Summit</span><br>
         <span class="event-details">Date: Feb 2026<br>
         Place: Kigali<br>
@@ -149,7 +149,7 @@ function showEvents(choice) {
     <span class="event-details">Date: June 2026<br>
     Place: Kigali<br>
     Cost: 5,000–10,000 RWF<br>
-    <a href="https://kigalicoffeefestival.com" target="_blank">More Info</a>`;
+    <a href="https://africacoffeeteaexpo.com/" target="_blank">More Info</a>`;
     output += `<p><span class="event-title">Restaurant Week Kigali</span><br>
     <span class="event-details">Date: Aug 2026<br>
     Place: Across Kigali<br>
