@@ -12,17 +12,17 @@ function showEvents(choice) {
         <span class="event-details">Date: July 13–19, 2026<br>
         Place: Kigali Genocide Memorial Site<br>
         Cost: Free (Donations)<br>
-        <a href="https://ubumuntuartsfestival.org" target="_blank">More Info</a>`;
+        <a href="https://ubumuntuartsfestival.com/about-us/" target="_blank">More Info</a>`;
         output += `<p><span class="event-title">Rwanda Film Festival</span><br>
         <span class="event-details">Date: July 2026<br>
         Place: Kigali / Rubavu<br>
         Cost: Free (Public Screening)<br>
-        <a href="https://rwandafilmfestival.com" target="_blank">More Info</a>`;
+        <a href="https://en.wikipedia.org/wiki/Rwanda_Film_Festival" target="_blank">More Info</a>`;
         output += `<p><span class="event-title">Kigali Photo Festival</span><br>
         <span class="event-details">Date: June 2026<br>
         Place: Various Galleries<br>
         Cost: Free<br>
-        <a href="https://kigaliphoto.com" target="_blank">More Info</a>`;
+        <a href="https://www.kigaliphotofest.com/" target="_blank">More Info</a>`;
         output += `<p><span class="event-title">Hobe Rwanda Festival</span><br>
         <span class="event-details">Date: September 2026<br>
         Place: Kigali<br>
