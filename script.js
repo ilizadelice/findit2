@@ -7,7 +7,7 @@ function showEvents(choice) {
         <span class="event-details">Date: May 30, 2026<br>
         Place: Zaria Court, Kigali<br>
         Cost: 20,000–50,000 RWF<br>
-        <a href="https://www.newtimes.co.rw/article/29618/entertainment/fashion/kigali-fashion-week-set-for-comeback-under-new-management" tart="_blank">More Info</a>`;
+        <a href="https://www.newtimes.co.rw/article/29618/entertainment/fashion/kigali-fashion-week-set-for-comeback-under-new-management" target="_blank">More Info</a>`;
         output += `<p><span class="event-title">Ubumuntu Arts Festival</span><br>
         <span class="event-details">Date: July 13–19, 2026<br>
         Place: Kigali Genocide Memorial Site<br>
