@@ -91,7 +91,7 @@ function showEvents(choice) {
         <span class="event-details">Date: Feb 2026<br>
         Place: Nationwide, ends in Kigali<br>
         Cost: Free (Spectating)<br>
-        <a href="https://www.tourdurwanda.rw/" target="_blank">More Info</a>`;
+        <a href="https://https://www.tourdurwanda.rw//" target="_blank">More Info</a>`;
         output += `<p><span class="event-title">Kigali Peace Marathon</span><br>
         <span class="event-details">Date: May 2026<br>
         Place: Kigali<br>
@@ -178,7 +178,7 @@ else if (choice === "Conservation and Nature") {
     <span class="event-details">Date: Sep 5, 2026<br>
     Place: Kinigi, Musanze<br>
     Cost: Free (Public Event)<br>
-    <a href="https://kwitazinagorillafestival.com" target="_blank">More Info</a>`;
+    <a href="https://kwitaizina.rw/" target="_blank">More Info</a>`;
     output += `<p><span class="event-title">World Environment Day</span><br>
     <span class="event-details">Date: June 5, 2026<br>
     Place: Nationwide<br>
@@ -207,7 +207,7 @@ else if (choice === "Religious Events") {
     <span class="event-details">Date: Nov 28, 2026<br>
     Place: Kibeho, Nyaruguru<br>
     Cost: Free (Pilgrimage)<br>
-    <a href="https://ladyofkibeho.com" target="_blank">More Info</a>`;
+    <a href="https://en.wikipedia.org/wiki/Our_Lady_of_Kibeho" target="_blank">More Info</a>`;
     output += `<p><span class="event-title">Assumption Day Pilgrimage</span><br>
     <span class="event-details">Date: Aug 15, 2026<br>
     Place: Kibeho<br>
