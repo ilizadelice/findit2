@@ -242,7 +242,7 @@ else if (choice === "Religious Events") {
       to explore more details.
 
 // Add support email contact
-    const supportEmail = "your-email@example.com";
+    const supportEmail = "ilizadelice@gmail.com";
     output += `<p class="support-contact">For any problem, please contact us at <a href="mailto:${supportEmail}">${supportEmail}</a>.</p>`;
 
  </p>
