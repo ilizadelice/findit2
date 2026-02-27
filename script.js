@@ -228,24 +228,21 @@ else if (choice === "Religious Events") {
     Place: Kibeho<br>
     Cost: 100 $+<br>
     <a href="https://kibeho-retreat.com" target="_blank">More Info</a>`;
-} else {
+}
+    else {
         output = "<p>NO RESOURCES</p>";
     }
 
-    output += `
-    <hr>
+    output += `<hr>
     <p>
       For more information about these events,
-      <a href="https://camp-nav-mauve.vercel.app/browse" target="_blank">
-        click here
-      </a>
+      <a href="https://camp-nav-mauve.vercel.app/browse" target="_blank">click here</a>
       to explore more details.
-  </p>
-// Add support email contact
+  </p>`;
+
     const supportEmail = "ilizadelice@gmail.com";
     output += `<p class="support-contact">For any problem, please contact us at <a href="mailto:${supportEmail}">${supportEmail}</a>.</p>`;
- </p>`;
 
-// Finalize output
-document.getElementById("output").innerHTML = output;
+    // Finalize output
+    document.getElementById("output").innerHTML = output;
 }
