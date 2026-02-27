@@ -232,6 +232,10 @@ else if (choice === "Religious Events") {
 
 
 
+
+    const supportEmail = "your-email@example.com";
+    output += `<p class="support-contact">For any problem, please contact us at <a href="mailto:${supportEmail}">${supportEmail}</a>.</p>`;
+
 // Finalize output
 document.getElementById("output").innerHTML = output;
 }

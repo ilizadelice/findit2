@@ -94,3 +94,12 @@ hr {
     margin: 25px 0;
 }
 
+
+.support-contact {
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+.support-contact a {
+    color: #1D4ED8;
+}
