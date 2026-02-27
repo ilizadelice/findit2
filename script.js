@@ -229,6 +229,9 @@ else if (choice === "Religious Events") {
     Cost: 100 $+<br>
     <a href="https://kibeho-retreat.com" target="_blank">More Info</a>`;
 }
+// Add support email contact
+    const supportEmail = "your-email@example.com";
+    output += `<p class="support-contact">For any problem, please contact us at <a href="mailto:${supportEmail}">${supportEmail}</a>.</p>`;
 
 
 
