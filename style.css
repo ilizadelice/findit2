@@ -7,10 +7,13 @@
 
 /* Page styling */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f9fafb;
-    color: #374151;
-    padding: 20px;
+   font-family: Arial, sans-serif;
+    background-image: url("https://www.google.com/imgres?q=rwanda%20youth%20and%20teenagers%20cool&imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F12896326%2Fpexels-photo-12896326.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D1%26w%3D500&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fphoto%2Fjoyful-teens-outdoors-in-southern-rwanda-30221581%2F&docid=J7el7kUIlBZSRM&tbnid=E-7An5f-nXvY9M&vet=12ahUKEwjKkdWWy6mUAxX8TaQEHYi5DU0QnPAOegQIWRAB..i&w=500&h=404&hcb=2&ved=2ahUKEwjKkdWWy6mUAxX8TaQEHYi5DU0QnPAOegQIWRAB");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: background-image 0.5s ease;
 }
 
 /* Header */
