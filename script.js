@@ -15,6 +15,9 @@ function eventHTML(title, date, place, cost, link) {
 
 // Main function to show events by category
 function showEvents(choice) {
+    // Remove background image when category is selected
+    document.body.classList.add('category-selected');
+    
     let output = "";
 
     if (choice === "Arts and Culture") {
