@@ -87,11 +87,7 @@ function showEvents(choice) {
 
     // Footer & support contact
     output += `<hr>
-        <p>
-            For more information about these events,
-            <a href="https://camp-nav-mauve.vercel.app/browse" target="_blank">click here</a>
-            to explore more details.
-        </p>
+
         <p class="support-contact">For any problem, please contact us at <a href="mailto:ilizadelice@gmail.com">ilizadelice@gmail.com</a>.</p>
     `;
 
