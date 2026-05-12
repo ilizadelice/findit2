@@ -8,30 +8,103 @@
 /* Page styling */
 body {
     font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero {
     background-image: url("https://images.pexels.com/photos/12896326/pexels-photo-12896326.jpeg?auto=compress&cs=tinysrgb&w=1600");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    transition: background-image 0.5s ease;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
-/* Hide background when category is selected */
-body.category-selected {
-    background-image: none;
+/* Dark overlay on hero for better text contrast */
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: fadeInDown 1s ease-in;
+}
+
+.hero-content h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: fadeInUp 1s ease-in 0.2s both;
+}
+
+/* Continue Button */
+.continue-btn {
+    background-color: #10B981;
+    color: white;
+    padding: 15px 40px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    animation: fadeInUp 1s ease-in 0.4s both;
+    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);
+}
+
+.continue-btn:hover {
+    background-color: #059669;
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(16, 185, 129, 0.6);
+}
+
+.continue-btn:active {
+    transform: scale(0.98);
+}
+
+/* Hidden content */
+.hidden {
+    display: none;
+}
+
+/* Main content styling */
+main {
     background-color: #f3f4f6;
+    padding: 40px 20px;
+    min-height: 100vh;
+    animation: fadeIn 0.6s ease-in;
 }
 
-/* Header */
+/* Header (for category section) */
 header {
     text-align: center;
     margin-bottom: 30px;
 }
+
 header h1 {
     color: #1E3A8A;
     font-size: 2.5rem;
     margin-bottom: 10px;
 }
+
 header h2 {
     color: #1E40AF;
     font-size: 1.5rem;
@@ -41,11 +114,16 @@ header h2 {
 .categories {
     text-align: center;
     margin-bottom: 20px;
+    animation: fadeIn 0.6s ease-in;
 }
+
 .categories p {
     font-weight: bold;
     margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #1E3A8A;
 }
+
 .buttons button {
     background-color: #10B981;
     color: #fff;
@@ -56,6 +134,7 @@ header h2 {
     cursor: pointer;
     transition: all 0.3s;
 }
+
 .buttons button:hover {
     background-color: #059669;
     transform: scale(1.05);
@@ -66,6 +145,8 @@ header h2 {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 /* Event card styling */
@@ -76,20 +157,24 @@ header h2 {
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     transition: all 0.3s;
 }
+
 .event-card:hover {
     box-shadow: 0 8px 12px rgba(0,0,0,0.15);
     transform: translateY(-2px);
 }
+
 .event-title {
     color: #DC2626;
     font-weight: bold;
     font-size: 1.2rem;
 }
+
 .event-details {
     color: #374151;
     font-size: 0.95rem;
     line-height: 1.4rem;
 }
+
 .event-img {
     width: 100%;
     max-width: 400px;
@@ -108,6 +193,7 @@ hr {
     text-align: center;
     margin-bottom: 20px;
 }
+
 .search-container input {
     padding: 10px 15px;
     border: 1px solid #D1D5DB;
@@ -123,10 +209,60 @@ hr {
     color: #374151;
     margin-top: 20px;
 }
+
 .support-contact a {
     color: #10B981;
     text-decoration: none;
 }
+
 .support-contact a:hover {
     text-decoration: underline;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .continue-btn {
+        padding: 12px 30px;
+        font-size: 1rem;
+    }
 }
