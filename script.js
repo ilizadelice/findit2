@@ -1,5 +1,16 @@
 // script.js
 
+// Function to scroll to main content and show it
+function goToContinue() {
+    const mainContent = document.getElementById('mainContent');
+    mainContent.classList.remove('hidden');
+    
+    // Smooth scroll to main content
+    setTimeout(() => {
+        mainContent.scrollIntoView({ behavior: 'smooth' });
+    }, 100);
+}
+
 // Function to generate a single event HTML
 function eventHTML(title, date, place, cost, link) {
     return `<div class="event-card event">
@@ -15,9 +26,6 @@ function eventHTML(title, date, place, cost, link) {
 
 // Main function to show events by category
 function showEvents(choice) {
-    // Remove background image when category is selected
-    document.body.classList.add('category-selected');
-    
     let output = "";
 
     if (choice === "Arts and Culture") {
@@ -90,7 +98,6 @@ function showEvents(choice) {
 
     // Footer & support contact
     output += `<hr>
-
         <p class="support-contact">For any problem, please contact us at <a href="mailto:ilizadelice@gmail.com">ilizadelice@gmail.com</a>.</p>
     `;
 
