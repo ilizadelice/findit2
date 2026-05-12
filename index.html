@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,12 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>WELCOME TO FIND IT!</h1>
-        <h2>Rwanda Youth Event Platform</h2>
-    </header>
+    <!-- Hero Section with Background -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>WELCOME TO FIND IT!</h1>
+            <h2>Rwanda Youth Event Platform</h2>
+            <button class="continue-btn" onclick="goToContinue()">Continue</button>
+        </div>
+    </section>
 
-    <main>
+    <!-- Main Content (Hidden until Continue is clicked) -->
+    <main id="mainContent" class="hidden">
         <section class="categories">
             <p>CHOOSE A CATEGORY</p>
             <div class="buttons">
