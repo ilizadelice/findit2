@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,12 +7,66 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Hero Section with Background -->
+    <!-- Hero Section with Image Gallery -->
     <section class="hero">
-        <div class="hero-content">
-            <h1>WELCOME TO FIND IT!</h1>
-            <h2>Rwanda Youth Event Platform</h2>
-            <button class="continue-btn" onclick="goToContinue()">Continue</button>
+        <div class="gallery-container">
+            <div class="gallery-grid">
+                <!-- REPLACE THESE IMAGE URLS WITH YOUR PICTURE LINKS -->
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=400&h=300&fit=crop" alt="Youth at event">
+                    <p>Discover Amazing Events</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=300&fit=crop" alt="Music festival">
+                    <p>Music & Culture</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=400&h=300&fit=crop" alt="Sports event">
+                    <p>Sports & Adventure</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400&h=300&fit=crop" alt="Tech conference">
+                    <p>Innovation & Tech</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=400&h=300&fit=crop" alt="Food festival">
+                    <p>Food & Lifestyle</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=400&h=300&fit=crop" alt="Nature and conservation">
+                    <p>Nature & Conservation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About/Info Section -->
+    <section class="about-section">
+        <div class="about-content">
+            <h2>About Find It!</h2>
+            <p>Find It! is Rwanda's premier youth event platform, connecting young people with incredible experiences across the country. Whether you're interested in music, sports, culture, technology, food, or nature—we've got you covered.</p>
+            
+            <div class="features">
+                <div class="feature-card">
+                    <h3>🎯 Find Your Vibe</h3>
+                    <p>Browse events across 8 different categories tailored for Rwanda's youth</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🌍 Explore Rwanda</h3>
+                    <p>Discover amazing places and cultural experiences all around the country</p>
+                </div>
+                <div class="feature-card">
+                    <h3>👥 Connect</h3>
+                    <p>Meet like-minded youth at events and build lasting memories</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📱 Easy Search</h3>
+                    <p>Quickly search and filter events to find exactly what you're looking for</p>
+                </div>
+            </div>
+
+            <p class="tagline">Ready to find your next adventure?</p>
+            <button class="continue-btn" onclick="goToContinue()">Continue to Events</button>
         </div>
     </section>
 
