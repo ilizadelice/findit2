@@ -30,7 +30,7 @@ function showEvents(choice) {
 
     if (choice === "Arts and Culture") {
         output += "<h3>Rwanda's Creative Hub Events</h3>";
-        output += eventHTML("Kigali Fashion Week", "May 30, 2026", "Zaria Court, Kigali", "20,000–50,000 RWF", "https://www.newtimes.co.rw/article/29618/entertainment/fashion/kigali-fashion-week-set-for-comeback-under-new-management");
+        output += eventHTML("Kigali Fashion Week", "May 30, 2026", "Zaria Court, Kigali", "20,000–50,000 RWF", "https://www.newtimes.co.rw/article/29618/entertainment/fashion/kigali-fashion-week");
         output += eventHTML("Ubumuntu Arts Festival", "July 13–19, 2026", "Kigali Genocide Memorial Site", "Free (Donations)", "https://ubumuntuartsfestival.com/about-us/");
         output += eventHTML("Rwanda Film Festival", "July 2026", "Kigali / Rubavu", "Free (Public Screening)", "https://en.wikipedia.org/wiki/Rwanda_Film_Festival");
         output += eventHTML("Kigali Photo Festival", "June 2026", "Various Galleries", "Free", "https://www.kigaliphotofest.com/");
