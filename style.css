@@ -301,9 +301,12 @@ body {
 }
 
 .kinyarwanda {
-    background-colour: #00008B;
+    display: block;
+    background-color: #00008B;
     color: white;
     margin-top: 12px;
+    padding: 10px;
+    border-radius: 8px;
 }
 .event-details a:hover {
     color: #059669;
