@@ -25,7 +25,10 @@ function eventHTML(title, date, place, cost, link) {
             Date: ${date}<br>
             Place: ${place}<br>
             Cost: ${cost}<br>
+            ${description ? `<p class="event-description in english">${description}</p>` 
+               ${description ? `<p class="event-description in kinyarwanda">${description}</p>
             <a href="${link}" target="_blank">More Info</a>
+            
         </span>
     </div>`;
 }
@@ -36,7 +39,7 @@ function showEvents(choice) {
 
     if (choice === "Arts and Culture") {
         output += "<h3>Rwanda's Creative Hub Events</h3>";
-        output += eventHTML("Kigali Fashion Week", "May 30, 2026", "Zaria Court, Kigali", "20,000–50,000 RWF", "https://www.newtimes.co.rw/article/29618/entertainment/fashion/kigali-fashion-week");
+        output += eventHTML("Kigali Fashion Week", "May 30, 2026", "Zaria Court, Kigali", "20,000–50,000 RWF","The Kigali Fashion Week is Rwanda's premier runway event celebrating vibrant African style, local designers, and international couture. This dynamic showcase connects creative talent with global fashion enthusiasts to spotlight the future of contemporary African design.","Icyumweru cyimyambarire ya Kigali nicyamamare cyambere cyu Rwanda cyizihiza imiterere nyafurika ikomeye, abashushanya baho, hamwe na couture mpuzamahanga. Iyerekana ryerekana imbaraga zihuza impano zo guhanga hamwe nabakunda imyambarire kwisi kugirango berekane ejo hazaza h'ibishushanyo mbonera bya Afrika.","https://www.newtimes.co.rw/article/29618/entertainment/fashion/kigali-fashion-week");
         output += eventHTML("Ubumuntu Arts Festival", "July 13–19, 2026", "Kigali Genocide Memorial Site", "Free (Donations)", "https://ubumuntuartsfestival.com/about-us/");
         output += eventHTML("Rwanda Film Festival", "July 2026", "Kigali / Rubavu", "Free (Public Screening)", "https://en.wikipedia.org/wiki/Rwanda_Film_Festival");
         output += eventHTML("Kigali Photo Festival", "June 2026", "Various Galleries", "Free", "https://www.kigaliphotofest.com/");
