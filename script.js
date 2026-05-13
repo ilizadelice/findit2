@@ -21,7 +21,7 @@ function goToContinue() {
 function eventHTML(title, date, place, cost,englishDescription,kinyarwandaDescription, link) {
     return `<div class="event-card event">
         <span class="event-title">${title}</span><br>
-        <span class="event-details">
+        <div class="event-details">
             Date: ${date}<br>
             Place: ${place}<br>
             Cost: ${cost}<br>
@@ -29,7 +29,7 @@ function eventHTML(title, date, place, cost,englishDescription,kinyarwandaDescri
             ${kinyarwandaDescription ? `<p class="event-description kinyarwanda">${kinyarwandadescription}</p>` : ''}
             <a href="${link}" target="_blank">More Info</a>
             
-        </span>
+        </div>
     </div>`;
 }
 
