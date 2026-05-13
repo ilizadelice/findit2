@@ -387,7 +387,29 @@ hr {
     .main-header h2 {
         font-size: 1.2rem;
     }
-
+/* Category buttons */
+.categories {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.categories p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.buttons button {
+    background-color: #10B981;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.buttons button:hover {
+    background-color: #059669;
+    transform: scale(1.05);
+}
     .buttons {
         flex-direction: column;
     }
