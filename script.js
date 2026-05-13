@@ -18,7 +18,7 @@ function goToContinue() {
 }
 
 // Function to generate a single event HTML in card style
-function eventHTML(title, date, place, cost, link) {
+function eventHTML(title, date, place, cost,englishDescription,kinyarwandaDescription, link) {
     return `<div class="event-card event">
         <span class="event-title">${title}</span><br>
         <span class="event-details">
