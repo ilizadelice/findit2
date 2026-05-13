@@ -3,15 +3,21 @@
 // Function to scroll to main content and show it
 function goToContinue() {
     const mainContent = document.getElementById('mainContent');
+    const heroSection = document.getElementById('heroSection');
+    const aboutSection = document.getElementById('aboutSection');
+    
+    // Hide hero and about sections
+    heroSection.style.display = 'none';
+    aboutSection.style.display = 'none';
+    
+    // Show main content
     mainContent.classList.remove('hidden');
     
-    // Smooth scroll to main content
-    setTimeout(() => {
-        mainContent.scrollIntoView({ behavior: 'smooth' });
-    }, 100);
+    // Scroll to top
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-// Function to generate a single event HTML
+// Function to generate a single event HTML in card style
 function eventHTML(title, date, place, cost, link) {
     return `<div class="event-card event">
         <span class="event-title">${title}</span><br>
