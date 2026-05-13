@@ -25,8 +25,8 @@ function eventHTML(title, date, place, cost, link) {
             Date: ${date}<br>
             Place: ${place}<br>
             Cost: ${cost}<br>
-            ${englishdescription ? `<p class="event-description in english">${englishdescription}</p>` : ''}
-            ${kinyarwandadescription ? `<p class="event-description in kinyarwanda">${kinyarwandadescription}</p>` : ''}
+            ${englishdescription ? `<p class="event-description english">${englishdescription}</p>` : ''}
+            ${kinyarwandadescription ? `<p class="event-description kinyarwanda">${kinyarwandadescription}</p>` : ''}
             <a href="${link}" target="_blank">More Info</a>
             
         </span>
