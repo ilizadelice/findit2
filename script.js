@@ -37,7 +37,7 @@ function eventHTML(title, date, place, cost,englishdescription,kinyarwandadescri
 function showEvents(choice) {
     let output = "";
     const backgrounds = {
-        "Arts and Culture": "url('images/art.jpg')",
+        "Arts and Culture": "url('https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=1200&auto=format&fit=crop')",
         "Culture and Traditions": "url('images/culture.jpg')",
         "Music and Nightlife": "url('images/music.jpg')",
         "Sports and Athletics": "url('images/sports.jpg')",
