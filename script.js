@@ -108,7 +108,7 @@ function showEvents(choice) {
     // Footer & support contact
     output += `<hr>
         <p class="support-contact">For any problem, please contact us at <a href="mailto:ilizadelice@gmail.com">ilizadelice@gmail.com</a>.</p>
-    `;
+   or <a href="mailo:0791810091">0791810091</a> `;
 
     document.getElementById("output").innerHTML = output;
 }
