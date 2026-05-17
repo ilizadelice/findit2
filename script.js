@@ -36,6 +36,23 @@ function eventHTML(title, date, place, cost,englishdescription,kinyarwandadescri
 // Main function to show events by category
 function showEvents(choice) {
     let output = "";
+    const backgrounds = {
+        "Arts and Culture": "url('images/art.jpg')",
+        "Culture and Traditions": "url('images/culture.jpg')",
+        "Music and Nightlife": "url('images/music.jpg')",
+        "Sports and Athletics": "url('images/sports.jpg')",
+        "Technology and Business": "url('images/tech.jpg')",
+        "Food and Lifestyle": "url('images/food.jpg')",
+        "Conservation and Nature": "url('images/nature.jpg')",
+        "Religious Events": "url('images/religion.jpg')"
+    };
+
+    // CHANGE BACKGROUND
+    document.body.style.backgroundImage = backgrounds[choice];
+    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundPosition = "center";
+    document.body.style.backgroundRepeat = "no-repeat";
+
 
     if (choice === "Arts and Culture") {
         output += "<h3>Rwanda's Creative Hub Events</h3>";
