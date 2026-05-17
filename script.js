@@ -37,7 +37,7 @@ function eventHTML(title, date, place, cost,englishdescription,kinyarwandadescri
 function showEvents(choice) {
     let output = "";
     const backgrounds = {
-        "Arts and Culture": "url('https://images.unsplash.com/photo-1569084024058-1632922a4e1d?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGFydCUyMGdhbGxlcnl8ZW58MHx8MHx8fDA%3D')",
+        "Arts and Culture": "url('https://artgallery.yale.edu/sites/default/files/styles/section_teaser/public/2026-05/2026-EA-ag-doc-3132-0001-pub.jpg?itok=W8THG1JY')",
         "Culture and Traditions": "url('images/culture.jpg')",
         "Music and Nightlife": "url('images/music.jpg')",
         "Sports and Athletics": "url('images/sports.jpg')",
