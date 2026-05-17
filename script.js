@@ -46,7 +46,7 @@ function showEvents(choice) {
         "Conservation and Nature": "url('images/nature.jpg')",
         "Religious Events": "url('images/religion.jpg')"
     };
-    document.body.style.backgroundImage = `url('${backgrounds[choice]}')`;
+    document.body.style.backgroundImage ="url('" + backgrounds[choice] + "')";
 
     // CHANGE BACKGROUND
     document.body.style.backgroundImage = backgrounds[choice];
