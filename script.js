@@ -45,7 +45,7 @@ function showEvents(choice) {
         "Technology and Business": "url('https://www.topafricanews.com/wp-content/uploads/2026/01/All-you-need-to-know-about-starting-up-a-business-in-Rwanda-1.png')",
         "Food and Lifestyle": "url('https://turkanawildlifesafaris.com/wp-content/uploads/2025/05/caption.jpg')",
         "Conservation and Nature": "url('https://media.istockphoto.com/id/165621890/photo/african-morning-first-daylight-in-the-rainforest-rwanda.jpg?s=612x612&w=0&k=20&c=vAIxOu9ZN-rSrYdzPKhFChgw5GDGhnpOn4lmQ7GOVRw=')",
-        "Religious Events": "url('https://t4.ftcdn.net/jpg/09/29/41/27/360_F_929412763_CNJeupxzLYL0ngIYCGZjBWtGwKWgO40t.jpg')"
+        "Religious Events": "url('https://www.shutterstock.com/image-photo/prophets-all-religions-bring-peace-260nw-2418758611.jpg')"
     };
     document.body.style.backgroundImage ="url('" + backgrounds[choice] + "')";
 
