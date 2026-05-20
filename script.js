@@ -40,12 +40,12 @@ function showEvents(choice) {
     const backgrounds = {
         "Arts and Culture": "url('https://artgallery.yale.edu/sites/default/files/styles/section_teaser/public/2026-05/2026-EA-ag-doc-3132-0001-pub.jpg?itok=W8THG1JY')",
         "Culture and Traditions": "url('https://cdn.sanity.io/images/y0jkjygh/production/1eaea01d6c84fc8b7d17dca6053da4a4c9ccabbb-1200x750.jpg?w=3840&q=85&fit=clip&auto=format')",
-        "Music and Nightlife": "url('images/music.jpg')",
-        "Sports and Athletics": "url('images/sports.jpg')",
-        "Technology and Business": "url('images/tech.jpg')",
-        "Food and Lifestyle": "url('images/food.jpg')",
-        "Conservation and Nature": "url('images/nature.jpg')",
-        "Religious Events": "url('images/religion.jpg')"
+        "Music and Nightlife": "url('https://media.tacdn.com/media/attractions-splice-spp-674x446/15/46/80/3e.jpg')",
+        "Sports and Athletics": "url('https://rwandadispatch.com/wp-content/uploads/2024/06/Amahoro.jpg')",
+        "Technology and Business": "url('https://www.topafricanews.com/wp-content/uploads/2026/01/All-you-need-to-know-about-starting-up-a-business-in-Rwanda-1.png')",
+        "Food and Lifestyle": "url('https://turkanawildlifesafaris.com/wp-content/uploads/2025/05/caption.jpg')",
+        "Conservation and Nature": "url('https://media.istockphoto.com/id/165621890/photo/african-morning-first-daylight-in-the-rainforest-rwanda.jpg?s=612x612&w=0&k=20&c=vAIxOu9ZN-rSrYdzPKhFChgw5GDGhnpOn4lmQ7GOVRw=')",
+        "Religious Events": "url('https://t4.ftcdn.net/jpg/09/29/41/27/360_F_929412763_CNJeupxzLYL0ngIYCGZjBWtGwKWgO40t.jpg')"
     };
     document.body.style.backgroundImage ="url('" + backgrounds[choice] + "')";
 
