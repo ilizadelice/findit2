@@ -249,7 +249,7 @@ body {
 }
 
 .events h3 {
-    color: #3c3c3c;
+    color: #ffffff;
     font-size: 1.8rem;
     margin-bottom: 20px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
@@ -333,7 +333,7 @@ hr {
 }
 
 .support-contact a {
-    color:#0000ff;
+    color:#ffffff;
     text-decoration: none;
     font-weight: 600;
 }
