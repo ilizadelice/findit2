@@ -39,7 +39,7 @@ function showEvents(choice) {
     let output = "";
     const backgrounds = {
         "Arts and Culture": "url('https://artgallery.yale.edu/sites/default/files/styles/section_teaser/public/2026-05/2026-EA-ag-doc-3132-0001-pub.jpg?itok=W8THG1JY')",
-        "Culture and Traditions": "url('images/culture.jpg')",
+        "Culture and Traditions": "url('https://cdn.sanity.io/images/y0jkjygh/production/1eaea01d6c84fc8b7d17dca6053da4a4c9ccabbb-1200x750.jpg?w=3840&q=85&fit=clip&auto=format')",
         "Music and Nightlife": "url('images/music.jpg')",
         "Sports and Athletics": "url('images/sports.jpg')",
         "Technology and Business": "url('images/tech.jpg')",
