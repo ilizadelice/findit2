@@ -39,13 +39,13 @@ function showEvents(choice) {
     let output = "";
     const backgrounds = {
         "Arts and Culture": "url('https://artgallery.yale.edu/sites/default/files/styles/section_teaser/public/2026-05/2026-EA-ag-doc-3132-0001-pub.jpg?itok=W8THG1JY')",
-        "Culture and Traditions": "url('https://media.cntraveler.com/photos/6751e76be0f7144346741a49/16:9/w_2560%2Cc_limit/_N6A1559.jpg')",
-        "Music and Nightlife": "url('https://media.tacdn.com/media/attractions-splice-spp-674x446/15/46/80/3e.jpg')",
+        "Culture and Traditions": "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLXxR6Q6AO3ZmLp-30cIZhJaEG9skBYy_umA&s')",
+        "Music and Nightlife": "url('https://media.cntraveler.com/photos/6751e76be0f7144346741a49/16:9/w_2560%2Cc_limit/_N6A1559.jpg')",
         "Sports and Athletics": "url('https://www.mayoornoida.net//public/admin/assets/images/blog/banner/desktop/1746619106-WhatsApp%20Image%202025-05-07%20at%2016.47.14.jpeg')",
         "Technology and Business": "url('https://www.columbiasouthern.edu/media/gtfbso4a/business-information-technology.jpg')",
         "Food and Lifestyle": "url('https://turkanawildlifesafaris.com/wp-content/uploads/2025/05/caption.jpg')",
         "Conservation and Nature": "url('https://bpac.in/wp-content/uploads/2021/08/BlogsArtboard-1-copy-9.jpg')",
-        "Religious Events": "url('https://www.shutterstock.com/image-photo/prophets-all-religions-bring-peace-260nw-2418758611.jpg')"
+        "Religious Events": "url('https://www.shutterstock.com/image-photo/prophets-all-religions-bring-peace-600nw-2418758611.jpg')"
     };
     document.body.style.backgroundImage ="url('" + backgrounds[choice] + "')";
 
